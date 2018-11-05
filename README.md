@@ -68,3 +68,10 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 AttributeError: 'tuple' object has no attribute 'append'
 Tuples are rarely used but if you ever want to have a sequence that you really don't want to be changed, then tuples might be a good idea to use.
+
+
+
+# OPEN and READ FILES
+
+Depois de usar um myfile.read(), todo o arquivo vai ser lido e/ou armazenado em alguma variável. se o mesmo comando for executado, sem utilizar o myfile.close(), o resultado será um vazio, pois todo o arquivo ja terá sido lido e o cursor vai estar no final do arquivo. É necessário fechar(close()) e refazer o processo.
+
