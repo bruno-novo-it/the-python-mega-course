@@ -1,5 +1,5 @@
 
-fruits_file = open("fruits.txt")
+fruits_file = open("fruits.txt", "r")
 
 fruit_content = fruits_file.read() # CAN USE read() OR readlines() to read a file
 # fruit_content = file.readlines()

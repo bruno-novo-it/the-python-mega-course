@@ -1,5 +1,5 @@
 
-myfile = open("sample.txt")
+myfile = open("sample.txt", "r")
 
 content = myfile.read()
 
