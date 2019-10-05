@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+
+  jupyter:
+    image: csbrunonovo/jupyter_notebook_docker
+    container_name: jupyter
+    ports: 
+        - "8888:8888"
+    volumes: 
+        - "${PWD}:/home/jupyter/notebooks"
