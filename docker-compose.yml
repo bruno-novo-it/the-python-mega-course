@@ -4,7 +4,7 @@ services:
   jupyter:
     image: csbrunonovo/jupyter_notebook_docker
     container_name: jupyter
-    ports: 
+    ports:
         - "8888:8888"
-    volumes: 
+    volumes:
         - "${PWD}:/home/jupyter/notebooks"
