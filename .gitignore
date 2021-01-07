@@ -1,1 +1,6 @@
 .ipynb_checkpoints
+
+*.spec
+build/
+dist/
+__pycache__
