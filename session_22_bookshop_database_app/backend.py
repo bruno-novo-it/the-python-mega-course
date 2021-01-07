@@ -45,12 +45,12 @@ def update(id,title,author,year,isbn):
     conn.commit()
     conn.close()
 
-connect()
-#insert("The sea","John",1918,913123132)
-print(view())
+# connect()
+# #insert("The sea","John",1918,913123132)
+# print(view())
 
-print(search(author="John Smith"))
-#delete(5)
+# print(search(author="John Smith"))
+# #delete(5)
 
-update(1,"The Ocean","John Macklean",1925,852963741)
-print(view())
+# update(1,"The Ocean","John Macklean",1925,852963741)
+# print(view())
